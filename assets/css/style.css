@@ -113,6 +113,7 @@ input[type=submit] {
     padding: 12px 20px;
     border: none;
     cursor: pointer;
+    font-size: 16px;
 }
 
 #submit:hover
@@ -172,6 +173,12 @@ input[type=text], select, textarea {
 
 .folio-label:hover {
     background-color: #EE7674;
+}
+
+hr {
+    color: #EE7674;
+    background-color: #EE7674;
+    height: 1px;
 }
 
 .clearfix::after {

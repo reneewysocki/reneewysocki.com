@@ -116,6 +116,11 @@ input[type=submit] {
     font-size: 16px;
 }
 
+.pink-input:focus {
+    background: rgba(238, 118, 116, .3);
+    color: #777777;
+  }
+
 #submit:hover
 {
   background-color: #EE7674;

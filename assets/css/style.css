@@ -55,16 +55,45 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+/* li a:hover {
     background-color: #EE7674;
     color: white;
     font-style: italic;
-}
+} */
 
 .active {
     background-color: #4aaaa5;
     color: white;
 }
+
+.hvr-underline-menu {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+  .hvr-underline-menu:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #EE7674;
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-underline-menu:hover:before, .hvr-underline-menu:focus:before, .hvr-underline-menu:active:before {
+    right: 0;
+  }
 
 #bio-photo {
     float: left;
@@ -167,6 +196,49 @@ input[type=text], select, textarea {
     line-height: 40px;
     font-weight: bold;
 }
+
+.hvr-underline-from-left {
+    background-color: #4aaaa5;
+    line-height: 40px;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 150px;
+    right: 110px;
+    overflow: hidden;
+  }
+
+  .hvr-underline-from-left a {
+      color: white;
+      text-decoration: none;
+  }
+  .hvr-underline-from-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #EE7674;
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+    right: 0;
+  }
 
 .folio-body {
     height: 675px;

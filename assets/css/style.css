@@ -58,6 +58,7 @@ li a {
 li a:hover {
     background-color: #EE7674;
     color: white;
+    font-style: italic;
 }
 
 .active {
@@ -176,15 +177,18 @@ input[type=text], select, textarea {
     text-decoration: none;
 }
 
-.folio-label:hover {
+ .folio-label:hover {
     background-color: #EE7674;
-}
+    font-style: italic;
+} 
+
 
 hr {
     color: #EE7674;
     background-color: #EE7674;
     height: 1px;
 }
+
 
 .clearfix::after {
     content: "";

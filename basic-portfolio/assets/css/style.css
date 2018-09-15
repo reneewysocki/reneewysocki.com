@@ -17,6 +17,7 @@ body {
     position: absolute;
     top: 10px;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    animation: colorchange 60s infinite;
 
 }
 
@@ -267,3 +268,33 @@ hr {
     clear: both;
     display: table;
 }
+
+@keyframes colorchange {
+    0%   {background-color: #ee7674;}
+    4%  {background-color: #e8708d;}
+    8%  {background-color: #e36da7;}
+    12%  {background-color: #dd69c0;}
+    16% {background-color: #d765d7;}
+    20% {background-color: #b462d2;}
+    24% {background-color: #935ecc;}
+    28% {background-color: #735bc6;}
+    32% {background-color: #575ac1;}
+    36% {background-color: #5471bb;}
+    40% {background-color: #5187b5;}
+    44% {background-color: #4d9cb0;}
+    48% {background-color: #4aaaa5;}
+    52% {background-color: #4aaaa5;}
+    56% {background-color: #4d9cb0;}
+    60% {background-color: #5187b5;}
+    64% {background-color: #5471bb;}
+    68% {background-color: #575ac1;}
+    72% {background-color: #735bc6;}
+    76% {background-color: #935ecc;}
+    80% {background-color: #b462d2;}
+    84% {background-color: #d765d7;}
+    88%  {background-color: #dd69c0;}
+    92%  {background-color: #e36da7;}
+    96%  {background-color: #e8708d;}
+    100%   {background-color: #ee7674;}
+
+ }

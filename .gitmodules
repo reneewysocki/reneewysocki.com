@@ -1,0 +1,6 @@
+[submodule "Bootstrap-Portfolio"]
+	path = Bootstrap-Portfolio
+	url = https://github.com/reneewysocki/Bootstrap-Portfolio.git
+[submodule "Responsive-Portfolio"]
+	path = Responsive-Portfolio
+	url = https://github.com/reneewysocki/Responsive-Portfolio.git

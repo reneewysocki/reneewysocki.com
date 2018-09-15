@@ -1,2 +1,2 @@
-# Responsive-Portfolio
-Homework Assignment #2
+# Renee Wysocki
+reneewysocki.com

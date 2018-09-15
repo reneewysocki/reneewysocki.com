@@ -79,6 +79,7 @@ nav {
     list-style-type: none;
     overflow: hidden;
     /* right: 20px; */
+    margin-right: 25px;
 }
 
 li {
@@ -341,6 +342,9 @@ input[type=text], select, textarea {
         height: 160px;
 
     }
+    .logo {
+        margin-left: 0px; 
+    }
 }
 
 @media only screen and (max-width: 640px) {
@@ -383,11 +387,18 @@ input[type=text], select, textarea {
 }
 
 @media only screen and (max-width: 666px) {
+    .logo {
+        margin-left: 0px; 
+    }
+}
+
+@media only screen and (max-width: 666px) {
     .folio-body {
         width: 100%;
         margin-bottom: 10px;
         height: 2500px;
     }
+
 }
 
 @media only screen and (max-width: 666px) {
@@ -448,7 +459,7 @@ input[type=text], select, textarea {
 
 @media only screen and (max-width: 768px) {
     .logo {
-        margin-left: 20px;
+        margin-left: 0px; 
     }
 }
 

@@ -9,54 +9,81 @@
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
         crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Roboto" rel="stylesheet">
     <title>Renée Wysocki</title>
 </head>
 
 <body>
     <div class="container">
         <div class="row main-body">
-            <div class="col-md-3">
-                <div id="profile-image">
-                    <img class="img-fluid" src="https://via.placeholder.com/600x600">
+            <div class="col-md-4">
+                <div class="sidebar-item side-link hvr-sweep-to-right" id="name">
+                    <div class="row">
+                        <div class="col navigation name">
+                            <a href="index.html">Renée Wysocki</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="profile-image-div">
+                    <img class="img-fluid" id="profile-image" src="./assets/images/profile.jpg">
+                </div>
+                <div class="sidebar-item side-link hvr-sweep-to-right" id="development-projects">
+                    <div class="row">
+                        <div class="col navigation">
+                            <a href="web-development.html">Web Development Projects</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar-item side-link hvr-sweep-to-right" id="design-resume">
+                    <div class="row">
+                        <div class="col navigation">
+                            <a href="graphic-design.html">Graphic Design Projects</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar-item side-link hvr-sweep-to-right" id="download-resume">
+                    <div class="row">
+                        <div class="col navigation">
+                            <a href="#">Download Resume</a>
+                        </div>
+                    </div>
                 </div>
                 <div class="sidebar-item" id="about-me">
                     <div class="row">
-                        <div class="col-2 sidebar-icon">
+                        <div class="col-1 sidebar-icon">
                             <i class="fas fa-user"></i>
                         </div>
-                        <div class="col">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua . Ld do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua
+                        <div class="col sidebar-info">
+                            Experienced, creative and versatile multimedia marketer.
                         </div>
                     </div>
                 </div>
                 <div class="sidebar-item" id="phone-number">
                     <div class="row">
-                        <div class="col-2 sidebar-icon">
+                        <div class="col-1 sidebar-icon">
                             <i class="fas fa-mobile-alt"></i>
                         </div>
-                        <div class="col">
-                            214-534-9807
+                        <div class="col sidebar-info">
+                            <a href="+12145349807">214-534-9807</a>
                         </div>
                     </div>
                 </div>
                 <div class="sidebar-item" id="email">
                     <div class="row">
-                        <div class="col-2 sidebar-icon">
+                        <div class="col-1 sidebar-icon">
                             <i class="fas fa-envelope"></i>
                         </div>
-                        <div class="col">
-                            reneew311@gmail.com
+                        <div class="col sidebar-info">
+                            <a href="mailto:reneew311@gmail.com">reneew311@gmail.com</a>
                         </div>
                     </div>
                 </div>
                 <div class="sidebar-item" id="location">
                     <div class="row">
-                        <div class="col-2 sidebar-icon">
+                        <div class="col-1 sidebar-icon">
                             <i class="fas fa-home"></i>
                         </div>
-                        <div class="col">
+                        <div class="col sidebar-info">
                             9812 Presthope Dr, <br>
                             Frisco, TX 75035
                         </div>
@@ -64,11 +91,11 @@
                 </div>
                 <div class="sidebar-item" id="skills">
                     <div class="row">
-                        <div class="sidebar-icon col-2">
+                        <div class="sidebar-icon col-1">
                             <i class="fas fa-toolbox"></i>
                         </div>
-                        <div class="col">
-                            <h5>Professional Skills</h5>
+                        <div class="col sidebar-info">
+                            <h5><span class="title">Professional Skills</span></h5>
                             Adobe Photoshop
                             <div class="progress" style="height: 10px;">
                                 <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75"
@@ -101,18 +128,18 @@
                     <div class="row">
                         <div class="col-6">
                             <a href="https://github.com/reneewysocki">
-                                <h3><i class="fab fa-github"></i></h3>
+                                <h1><i class="fab fa-github"></i></h1>
                             </a>
                         </div>
                         <div class="col-6">
                             <a href="https://www.linkedin.com/in/reneewysocki/">
-                                <h3><i class="fab fa-linkedin"></i></h3>
+                                <h1><i class="fab fa-linkedin"></i></h1>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-9">
+            <div class="col-md-8">
                 <div class="row">
                     <div class="container body-content" id="work-experience">
                         <div class="row">
@@ -120,11 +147,13 @@
                                 <h2><i class="fas fa-toolbox"></i></h2>
                             </div>
                             <div class="col">
-                                <div>
-                                    <h2>Work Experience</h2>
-                                    <div>
-                                        <h3>Creative Director at Crane Network</h3>
-                                        <h5>APR 2014 - APR 2018</h5>
+                                <div class="body-item">
+                                    <span class="title">
+                                        <h2>Work Experience</h2>
+                                    </span>
+                                    <div class="body-item">
+                                        <h4>Creative Director at Crane Network</h4>
+                                        <h5><span class="date">APR 2014 - APR 2018</span></h5>
                                         <p>• Worked closely with advertisers to create several email blasts daily
                                             shared
                                             with a distribution list of over 5,000 worldwide opt-in members and through
@@ -158,8 +187,8 @@
                                         <hr>
                                     </div>
                                     <div>
-                                        <h3>Marketing Assistant at Crane Network</h3>
-                                        <h5>MAY 2013 - JUL 2015</h5>
+                                        <h4>Marketing Assistant at Grapevine Wine Tours</h4>
+                                        <h5><span class="date">APR 2014 - APR 2018</span></h5>
                                         <p>• Create promotional materials and managed social media sites.
                                             <br>
                                             • Organize and contribute content for the company’s website
@@ -175,48 +204,52 @@
                         </div>
                     </div>
                     <div class="container body-content" id="work-experience">
-                            <div class="row">
-                                <div class="body-icon col-1">
-                                    <h2><i class="fas fa-sitemap"></i></h2>
-                                </div>
-                                <div class="col">
-                                    <div>
+                        <div class="row">
+                            <div class="body-icon col-1">
+                                <h2><i class="fas fa-sitemap"></i></h2>
+                            </div>
+                            <div class="col">
+                                <div class="body-item">
+                                    <span class="title">
                                         <h2>Organizations</h2>
-                                        <div>
-                                            <h3>Specialized Carriers & Rigging Association</h3>
-                                            <h5>Communications Adivsory Committee </h5>
-                                            <p>Member <br>
+                                    </span>
+                                    <div>
+                                        <h4>Specialized Carriers & Rigging Association</h4>
+                                        <h5>Communications Adivsory Committee </h5>
+                                        <p>Member <br>
                                             2017-2018</p>
-                                            <hr>
-                                            <h5>Leadership Forum</h5>
-                                            <p>First Female Member <br>
+                                        <hr>
+                                        <h5>Leadership Forum</h5>
+                                        <p>First Female Member <br>
                                             2017-2018</p>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
                     <div class="container body-content" id="education">
                         <div class="row">
                             <div class="body-icon col-1">
                                 <h2><i class="fas fa-graduation-cap"></i></h2>
                             </div>
                             <div class="col">
-                                <div>
-                                    <h2>Education</h2>
+                                <div class="body-item">
+                                    <span class="title">
+                                        <h2>Education</h2>
+                                    </span>
                                     <div>
-                                        <h3>Full-Stack Development Bootcamp</h3>
-                                        <h4>Southern Methodist University</h4>
-                                        <h5>AUG 2018 - FEB 2019</h5>
+                                        <h4>Full-Stack Development Bootcamp</h4>
+                                        <h5>Southern Methodist University</h5>
+                                        <h6><span class="date">APR 2014 - APR 2018</span></h6>
                                         <p>• Worked closely with advertisers to create several email blasts daily
                                             shared
                                         </p>
                                         <hr>
                                     </div>
                                     <div>
-                                        <h3>Graphic Design</h3>
-                                        <h4>Keene State College</h4>
-                                        <h5>AUG 2018 - FEB 2019</h5>
+                                        <h4>Graphic Design</h4>
+                                        <h5>Keene State College</h5>
+                                        <h6><span class="date">APR 2014 - APR 2018</span></h6>
                                         <p>• Worked closely with advertisers to create several email blasts daily
                                             shared
                                         </p>
@@ -231,27 +264,34 @@
                                 <h2><i class="fas fa-plane-departure"></i></h2>
                             </div>
                             <div class="col">
-                                <div>
-                                    <h2>Interests</h2>
-                                    <div class="row">
-                                        <div class="col">
-                                            <h2><i class="fas fa-dog"></i></h2>
+                                <div class="body-item">
+                                    <span class="title">
+                                        <h2>Interests</h2>
+                                    </span>
+                                    <div class="row" id="interest-icons">
+                                        <div class="col interest-item">
+                                            <i class="fas fa-dog interest-icon"></i>
+                                            <br>
                                             Dogs
                                         </div>
-                                        <div class="col">
-                                            <h2><i class="fas fa-horse"></i></h2>
+                                        <div class="col interest-item">
+                                            <i class="fas fa-horse interest-icon"></i>
+                                            <br>
                                             Horses
                                         </div>
-                                        <div class="col">
-                                            <h2><i class="fas fa-hiking"></i></h2>
+                                        <div class="col interest-item">
+                                            <i class="fas fa-hiking interest-icon"></i>
+                                            <br>
                                             Hiking
                                         </div>
-                                        <div class="col">
-                                            <h2><i class="fas fa-ship"></i></h2>
+                                        <div class="col interest-item">
+                                            <i class="fas fa-ship interest-icon"></i>
+                                            <br>
                                             Boating
                                         </div>
-                                        <div class="col">
-                                            <h2><i class="fas fa-utensils"></i></h2>
+                                        <div class="col interest-item">
+                                            <i class="fas fa-utensils interest-icon"></i>
+                                            <br>
                                             Cooking
                                         </div>
                                     </div>
@@ -262,7 +302,7 @@
                 </div>
             </div>
         </div>
-        
+
     </div>
     </div>
 

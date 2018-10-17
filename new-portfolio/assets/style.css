@@ -1,24 +1,153 @@
+body {
+    background-color: #5C4B51;
+    background-image: url(images/hypnotize.jpg)
+}
+
 .main-body {
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
 }
 
 .sidebar-item {
     padding: 10px;
-    border: 1px solid black;
+    background-color: #FDFDF9;
+    margin-bottom: 5px;
 }
 
 .sidebar-icon {
     margin-top: 10px;
+    font-size: 20px;
+    padding-right: 20px;
+    color: #5C4B51;
 }
 
 .body-icon {
     margin-top: 20px;
+    color: #5C4B51;
 }
 
 .body-content {
-    border: 1px solid black;
+    background-color: #FDFDF9;
     margin-bottom: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+#links {
+    align-content: center;
+    text-align: center;
+}
+
+#links a {
+    color: #F3B562;
+}
+
+#links a:hover {
+    color: #F06060;
+}
+
+.interest-icon {
+    font-size: 30px;
+}
+
+.interest-item {
+    text-align: center;
+}
+
+.navigation {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+ .name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.side-link {
+    background-color: #F06060;
+}
+
+.side-link a {
+    color: #F2EBBF;
+}
+
+.side-link a:hover {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#development-projects {
+    margin-top: 5px;
+}
+
+.progress-bar {
+    background-color: #F06060;
+}
+
+.body-item {
+    margin-top: 10px;
+}
+
+.date {
+    color: #8CBEB2;
+}
+
+.sidebar-info {
+    margin-top: 10px;
+}
+
+#interest-icons {
+    margin-top: 20px;
+}
+
+
+/* Sweep To Right */
+.hvr-sweep-to-right {
+    /* display: inline-block; */
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  }
+  .hvr-sweep-to-right:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #F3B562;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+    color: white;
+  }
+  .hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }

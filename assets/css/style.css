@@ -167,7 +167,12 @@ body {
     justify-content: center;
 }
 
+.portfolio-img {
+    width: 100%;
+}
+
 .secondary-port-img {
     margin-top: 8px;
     margin-bottom: 8px;
+    width: 100%;
 }

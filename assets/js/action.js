@@ -203,6 +203,38 @@ $(document).ready(function () {
 			description: 'Christmas Card',
 			mainImage: 'assets/images/gd-portfolio/eat-drink-and-be-merry-christmas-card.jpg',
 		},
+		27: {
+			id: '27',
+			title: 'Eat, Drink, and Be Thankful',
+			client: 'Grapevine Wine Tours',
+			date: 'November 2018',
+			description: 'Web and Social Media Promotion',
+			mainImage: 'assets/images/gd-portfolio/thanksgiving-eat-drink-and-be-thankful-v2.jpg',
+		},
+		28: {
+			id: '28',
+			title: 'Secure Your Future',
+			client: 'DKM Insurance',
+			date: 'March 2017',
+			description: 'Full Page Print and Flyer Advertisement',
+			mainImage: 'assets/images/gd-portfolio/dkm-insurance-flyer.jpg',
+		},
+		29: {
+			id: '29',
+			title: 'A World of Equipment at Your Fingertips',
+			client: 'Crane Network',
+			date: 'March 2016',
+			description: 'Full Page Print Advertisement Published in International Cranes & Specialized Transportation Magazine',
+			mainImage: 'assets/images/gd-portfolio/Full-Page-Equipment-Globe-Fingertips-Ad-ICST-March-PSD (2018_02_10 20_30_25 UTC).jpg',
+		},
+		30: {
+			id: '30',
+			title: 'Enter to Win',
+			client: 'Crane Network',
+			date: 'March 2018',
+			description: 'Web and Social Media Contest Promotion',
+			mainImage: 'assets/images/gd-portfolio/Crane-Network-Enter-to-Win (2018_06_06 20_47_35 UTC).jpg',
+		},
 	}
 
 
